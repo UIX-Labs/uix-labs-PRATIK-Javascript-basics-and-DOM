@@ -10,12 +10,9 @@ document.querySelector('.form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
 
     // Log to console when submit event occurs
-    console.log("I am inside submit");})
-//Write your code above
-
-function showSlamList(){
-//Update the function here
-        let contactName = document.querySelector('input[name="contactName"]').value;
+    console.log("I am inside submit");
+    
+       let contactName = document.querySelector('input[name="contactName"]').value;
     let relationship = document.querySelector('input[name="relationship"]').value;
     let likeInMe = document.querySelector('input[name="likeInMe"]').value;
     let hateInMe = document.querySelector('input[name="hateInMe"]').value;
@@ -27,6 +24,13 @@ function showSlamList(){
     let shareOpinion = document.querySelector('input[name="shareOpinion"]').value;
 
 
+
+    })
+//Write your code above
+
+function showSlamList(){
+//Update the function here
+     
 // Write your code above this line
 }
 
