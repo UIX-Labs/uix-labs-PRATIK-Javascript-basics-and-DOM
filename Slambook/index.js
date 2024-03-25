@@ -12,17 +12,17 @@ document.querySelector('.form').addEventListener('submit', function(event) {
     // Log to console when submit event occurs
     console.log("I am inside submit");
     
-       let contactName = document.querySelector('input[name="contactName"]').value;
-    let relationship = document.querySelector('input[name="relationship"]').value;
-    let likeInMe = document.querySelector('input[name="likeInMe"]').value;
-    let hateInMe = document.querySelector('input[name="hateInMe"]').value;
-    let deadReaction = document.querySelector('input[name="deadReaction"]').value;
-    let firstImpression = document.querySelector('input[name="firstImpression"]').value;
-    let beautifulMessage = document.querySelector('input[name="beautifulMessage"]').value;
-    let nickname = document.querySelector('input[name="nickname"]').value;
-    let songForMe = document.querySelector('input[name="songForMe"]').value;
-    let shareOpinion = document.querySelector('input[name="shareOpinion"]').value;
-
+    
+    let contactName = document.querySelector('input[name="contactName"]');
+    let relationship = document.querySelector('input[name="relationship"]');
+    let likeInMe = document.querySelector('input[name="likeInMe"]');
+    let hateInMe = document.querySelector('input[name="hateInMe"]');
+    let deadReaction = document.querySelector('input[name="deadReaction"]');
+    let firstImpression = document.querySelector('input[name="firstImpression"]');
+    let beautifulMessage = document.querySelector('input[name="beautifulMessage"]');
+    let nickname = document.querySelector('input[name="nickname"]');
+    let songForMe = document.querySelector('input[name="songForMe"]');
+    let shareOpinion = document.querySelector('input[name="shareOpinion"]');
 
 
     })
